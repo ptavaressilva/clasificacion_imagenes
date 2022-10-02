@@ -1,9 +1,10 @@
 # Clasificador Multiclase de Imágenes de Restauración
 
 ![The Valley (logo](img/TheValley.png)
+
 ![Bluetab (logo](img/Bluetab.png)
 
-###  Trabajo final de máster en The Valley Business School (2021-11 a 2022-10)
+###  Trabajo final de máster en The Valley Business School (2021-11 / 2022-10)
 
 Equipo: [Pedro Tavares](https://github.com/ptavaressilva), [Toni Vila](https://github.com/tvila), Carlos Cejas y Carlos Huguet.
 
