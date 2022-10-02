@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Restaurante ACME</h1>
+                <h2 class="page-header">Fotos del restaurante en las redes sociales</h2>
+            </div>
+            <div class="col-lg-12">
+                <h3 class="page-header">Nuestra comida</h3>
+                {% for image in images_food %}
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <img height="10" class="img-thumbnail" src=" {{url_for('send_image', filename=image)}}">
+                </div>
+                {% endfor %}
+            </div>
+            <div class="col-lg-12">
+                <h3 class="page-header">Nuestros espacios</h3>
+                {% for image in images_inside %}
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <img class="img-responsive" src=" {{url_for('send_image', filename=image)}}">
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="col-lg-12">
+                <h3 class="page-header">Nuestros menus</h3>
+                {% for image in images_menu %}
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <img class="img-responsive" src=" {{url_for('send_image', filename=image)}}">
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="col-lg-12">
+                <h3 class="page-header">Nuestras bebidas</h3>
+                {% for image in images_drink %}
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <img class="img-responsive" src=" {{url_for('send_image', filename=image)}}">
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="col-lg-12">
+                <h3 class="page-header">El exterior</h3>
+                {% for image in images_outside %}
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <img class="img-responsive" src=" {{url_for('send_image', filename=image)}}">
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
