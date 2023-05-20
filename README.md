@@ -14,7 +14,7 @@ En este trabajo evaluamos un conjunto de arquitecturas de **Computer Vision** pa
 
 Trás iterar distintas arquitecturas (CNN y ViT) se usó Transfer Learning para tunear un modelo ResNet, alcanzando un accuracy del 97,2% en validación.
 
-[Memória del proyecyo (pdf)](The\ Valley\ -\ TF\ MDS\ Bluetab\ -\ Grupo\ 2\ -\ Memoria\ del\ Proyecto.pdf)
+[Memória del proyecyo (pdf)](The_Valley_TF_Memoria_del_Proyecto.pdf)
 
 ## Estructura del repositório
 
