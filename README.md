@@ -10,11 +10,11 @@ Equipo: [Pedro Tavares](https://github.com/ptavaressilva), [Toni Vila](https://g
 
 Tutor: [Javier de la Rosa](https://github.com/jdelarosa91)
 
-En este trabajo evaluamos un conjnto de arquitecturas de **Computer Vision** para clasificar fotos obtenidas de redes sociales, permitiendo su uso en webs y apps.
+En este trabajo evaluamos un conjunto de arquitecturas de **Computer Vision** para clasificar fotos obtenidas de redes sociales, permitiendo su uso en webs y apps.
 
 Trás iterar distintas arquitecturas (CNN y ViT) se usó Transfer Learning para tunear un modelo ResNet, alcanzando un accuracy del 97,2% en validación.
 
-[Memória del trabajo (PDF)]("The Valley - TF MDS Bluetab - Grupo 2 - Memoria del Proyecto.pdf")
+[Memória del proyecyo (pdf)](The\ Valley\ -\ TF\ MDS\ Bluetab\ -\ Grupo\ 2\ -\ Memoria\ del\ Proyecto.pdf)
 
 ## Estructura del repositório
 
