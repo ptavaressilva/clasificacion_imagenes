@@ -14,6 +14,8 @@ En este trabajo evaluamos un conjnto de arquitecturas de **Computer Vision** par
 
 Trás iterar distintas arquitecturas (CNN y ViT) se usó Transfer Learning para tunear un modelo ResNet, alcanzando un accuracy del 97,2% en validación.
 
+[Memória del trabajo (PDF)]("The Valley - TF MDS Bluetab - Grupo 2 - Memoria del Proyecto.pdf")
+
 ## Estructura del repositório
 
 **[1_Setup_MLOps](1_Setup_MLOps)** --> Script de arranque del contenedor Docker, notebooks para extraer el dataset y configurar los experimentos en MLflow Tracking.
